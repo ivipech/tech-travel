@@ -1,4 +1,4 @@
-import ListOption from "./components/ListOption";
+import { ListOption } from "./components";
 function App() {
   return (
     <ul>
