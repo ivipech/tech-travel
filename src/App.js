@@ -1,13 +1,18 @@
 import { ListOption } from "./components";
+
+const customStyle = (backColor = "#909") => ({
+  backgroundColor: backColor,
+  margin: "20px 30px",
+});
+
 function App() {
   return (
     <ul>
-      <li>Lunes</li>
-      <li>Martes</li>
-      <li>Miercoles</li>
-      <li>Jueves</li>
-      <li>Sabado</li>
-      <li>Domingo</li>
+      <ListOption className="" tiempo="frio">
+        Lunes
+      </ListOption>
+      <ListOption>Martes</ListOption>
+      <ListOption>Miercoles</ListOption>
     </ul>
   );
 }
