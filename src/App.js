@@ -8,7 +8,7 @@ const customStyle = (backColor = "#909") => ({
 function App() {
   return (
     <ul>
-      <ListOption className="" tiempo="frio">
+      <ListOption className="blue" tiempo="frio">
         Lunes
       </ListOption>
       <ListOption>Martes</ListOption>
