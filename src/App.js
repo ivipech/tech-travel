@@ -1,7 +1,7 @@
-import { Timer } from "./components";
+import { CounterFunction } from "./components";
 
 function App() {
-  return /*<Timer />*/;
+  return <CounterFunction />;
 }
 
 export default App;
